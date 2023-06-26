@@ -1,6 +1,5 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-// import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
@@ -56,7 +55,7 @@ const Navbar = () => {
               {nav}
             </ul>
           </div>
-          <a className=" text-red-600 normal-case text-xl">Enamul</a>
+          <a className=" text-blue-600 normal-case text-xl">Enamul</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal">{nav}</ul>

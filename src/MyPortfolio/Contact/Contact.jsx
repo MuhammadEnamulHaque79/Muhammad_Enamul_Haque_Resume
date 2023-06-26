@@ -1,13 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Fade, Zoom } from "react-awesome-reveal";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
-import showwcase from "../../assets/152037815-1ba1ba6e-7f3a-455e-a51e-7fb2619ea519.png";
-import LinearProgress from "@mui/material/LinearProgress";
-import Box from "@mui/material/Box";
+// import { Fade, Zoom } from "react-awesome-reveal";
+// import github from "../../assets/github.png";
+// import linkedin from "../../assets/linkedin.png";
+// import showwcase from "../../assets/152037815-1ba1ba6e-7f3a-455e-a51e-7fb2619ea519.png";
+// import LinearProgress from "@mui/material/LinearProgress";
+// import Box from "@mui/material/Box";
+// import ScrollToTop from "react-scroll-up";
+// import up from "../../assets/up-arrow.gif";
 import ScrollToTop from "react-scroll-up";
-import up from "../../assets/up-arrow.gif";
+import { Zoom } from "react-awesome-reveal";
 
 const Contact = () => {
   const icon = {
@@ -24,7 +26,8 @@ const Contact = () => {
     <div className="my-20" id="contacts">
       <h2 className="text-center text-3xl font-semibold">Contact Me</h2>
       <div className="lg:flex mt-10 gap-10">
-        <>
+        <div className="flex flex-col">
+
           <Zoom>
             <div>
               <h3>Mail Me</h3>
@@ -55,11 +58,12 @@ const Contact = () => {
                   </span>
                 </div>
                 <div>
-                  <p>abubokor1066@gmail.com</p>
+                  <p>muhammad.enamul.haque79@gmail.com</p>
                 </div>
               </div>
             </div>
           </Zoom>
+
           <div className="shadow-2xl card my-4">
             <Zoom>
               <h3>Number</h3>
@@ -83,11 +87,12 @@ const Contact = () => {
                   </span>
                 </div>
                 <div>
-                  <p className="pe-10">+8801885236058</p>
+                  <p className="pe-10">+8801716491164</p>
                 </div>
               </div>
             </Zoom>
           </div>
+
           <div>
             <Zoom>
               <h3>Location</h3>
@@ -116,41 +121,65 @@ const Contact = () => {
                   </span>
                 </div>
                 <div>
-                  <p>Cumilla, Bangladesh 3540</p>
+                  <p>Kishoreganj, Bangladesh 2300</p>
                 </div>
               </div>
             </Zoom>
           </div>
+
           <Zoom>
             <div className="flex mb-10 gap-10 justify-center items-center mt-5">
-              <a href="https://github.com/AbuBokorprog">
+              {/* <a href="https://github.com/MuhammadEnamulHaque79">
                 <img
                   src={github}
                   alt=""
                   className=" w-10  rounded-full hover:ring-teal-400 hover:ring-2 bg-white"
                 />
+              </a> */}
+              <a href="https://github.com/MuhammadEnamulHaque79">
+                <img
+                  // src={github}
+                  src="https://i.ibb.co/1mkMvDb/SC8.png"
+                  alt=""
+                  className=" w-10  rounded-full hover:ring-teal-400 hover:ring-2 bg-white"
+                />
               </a>
-              <a href="https://www.showwcase.com/abubokorprog">
+
+              {/* <a href="https://www.showwcase.com/abubokorprog">
                 <img
                   src={showwcase}
                   alt=""
                   className=" w-10  rounded-full bg-white hover:ring-teal-400 hover:ring-2"
                 />
-              </a>
-              <a href="https://www.linkedin.com/in/md-abu-bokor/">
+              </a> */}
+              <a href="https://github.com/MuhammadEnamulHaque79">
                 <img
-                  src={linkedin}
+                  src="https://i.ibb.co/1mkMvDb/SC8.png"
+                  alt=""
+                  className=" w-10  rounded-full bg-white hover:ring-teal-400 hover:ring-2"
+                />
+              </a>
+
+              <a href="https://www.linkedin.com/in/enahaque79/">
+                <img
+                  // src={linkedin}
+                  src="https://i.ibb.co/1mkMvDb/SC8.png"
                   alt=""
                   className=" w-10 rounded-full bg-white hover:ring-teal-400 hover:ring-2"
                 />
               </a>
+
             </div>
+
           </Zoom>
-        </>
+        </div>
+
+
         <div className="lg:w-2/3">
           <h3 className="text-2xl text-center">Get In touch</h3>
           <form
             action="https://formsubmit.co/c4302b3b04335619f01986d9b3ddc6af"
+
             className="w-full"
             method="POST"
           >
@@ -215,7 +244,8 @@ const Contact = () => {
       </div>
       <ScrollToTop showUnder={160}>
         <span className="text-xl">
-          <img src={up} alt="" className="lg:w-16 w-10 rounded-full" />
+          {/* <img src={up} alt="" className="lg:w-16 w-10 rounded-full" /> */}
+          <img src="https://i.ibb.co/1mkMvDb/SC8.png" alt="" className="lg:w-16 w-10 rounded-full" />
         </span>
       </ScrollToTop>
     </div>
