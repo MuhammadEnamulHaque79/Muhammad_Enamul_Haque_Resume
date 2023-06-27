@@ -17,7 +17,7 @@ import LazyLoad from "react-lazy-load";
 
 const About = () => {
     return (
-        <div className="my-20 mx-auto" id="about">
+        <div className="mx-5 my-20" id="about">
             <h2 className="text-center text-3xl font-semibold">About Me</h2>
             <div className="lg:flex gap-16 items-center my-5">
                 <div className="lg:w-1/2">

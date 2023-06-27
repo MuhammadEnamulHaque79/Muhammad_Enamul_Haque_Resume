@@ -8,7 +8,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="my-20" id="services">
+    <div className="mx-5 my-20" id="services">
       <h2 className="text-2xl mb-5 text-center font-semibold text-red-400">
         Services
       </h2>

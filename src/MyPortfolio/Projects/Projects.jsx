@@ -16,7 +16,7 @@ import LazyLoad from "react-lazy-load";
 
 const Projects = () => {
   return (
-    <div className="my-20" id="projects">
+    <div className="mx-5 my-20" id="projects">
       <>
         <h2 className="text-2xl mb-5 text-center font-semibold text-red-400">
           My Projects
@@ -26,14 +26,14 @@ const Projects = () => {
         <>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              {/* <img src={lyric} alt="photo" /> */}
+              
               <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
             </LazyLoad>
 
             <div className="card-body">
               <h2 className="card-title">Yoga School || Educational Website</h2>
               <div className="card-actions justify-between">
-                {/* <button className="btn btn-primary">Buy Now</button> */}
+                
                 <button className="btn btn-primary">Enroll Now</button>
                 <button
                   className="btn btn-primary"
@@ -49,7 +49,7 @@ const Projects = () => {
               <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={lyric} className="w-full" /> */}
+                    
                     <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -63,7 +63,7 @@ const Projects = () => {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={lyric2} className="w-full" /> */}
+                    
                     <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -77,7 +77,7 @@ const Projects = () => {
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={lyric3} className="w-full" /> */}
+                  
                     <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -91,7 +91,6 @@ const Projects = () => {
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={lyric4} className="w-full" /> */}
                     <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -142,20 +141,21 @@ const Projects = () => {
                 </button>
               </div>
               <div className="modal-action">
-                {/* if there is a button, it will close the modal */}
+                
                 <button className="btn">Close</button>
               </div>
             </form>
           </dialog>
         </>
+        
         <div>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              {/* <img src={kidzoo} alt="Kidzoo" /> */}
-              <img src="https://i.ibb.co/6mbPzRD/class3.png" alt="photo" />
+              
+              <img src="https://i.ibb.co/qr1b1Cs/papet-1.png" alt="photo" />
             </LazyLoad>
             <div className="card-body">
-              <h2 className="card-title">Disney Doll World || E-commerce website</h2>
+              <h2 className="card-title">Doll World || E-commerce Website</h2>
               <div className="card-actions justify-between">
                 <button className="btn btn-primary">Buy Now</button>
                 <button
@@ -225,7 +225,7 @@ const Projects = () => {
                 </div>
               </div>
               <h3 className="font-bold text-lg">
-                Disney Doll World ||
+                Doll World ||
                 <span className=""> E-commerce Website</span>
               </h3>
               <p>
@@ -242,7 +242,7 @@ const Projects = () => {
                   hassle-free experience for customers.
                 </li>
                 <li>
-                  Each product's details will display the seller's name and
+                  Each products details will display the sellers name and
                   contact email.
                 </li>
               </ul>
@@ -273,7 +273,7 @@ const Projects = () => {
               <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
             </LazyLoad>
             <div className="card-body">
-              <h2 className="card-title">Thai Recipe Food || Restaurant</h2>
+              <h2 className="card-title">Thai Recipe Cortege || Restaurant</h2>
               <div className="card-actions justify-between">
                 <button className="btn btn-primary">Buy Now</button>
                 <button
