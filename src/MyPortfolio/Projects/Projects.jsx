@@ -1,16 +1,16 @@
 import React from "react";
-import lyric from "../../assets/lyriclab.png";
-import lyric2 from "../../assets/lyriclab2.png";
-import lyric3 from "../../assets/lyriclab3.png";
-import lyric4 from "../../assets/lyriclab4.png";
-import kidzoo from "../../assets/kidzoo.png";
-import kidzoo2 from "../../assets/kidzoo2.png";
-import kidzoo3 from "../../assets/kidzoo3.png";
-import kidzoo4 from "../../assets/kidzoo4.png";
-import chef from "../../assets/chef.png";
-import chef2 from "../../assets/chef2.png";
-import chef3 from "../../assets/chef3.png";
-import chef4 from "../../assets/chef4.png";
+// import lyric from "../../assets/lyriclab.png";
+// import lyric2 from "../../assets/lyriclab2.png";
+// import lyric3 from "../../assets/lyriclab3.png";
+// import lyric4 from "../../assets/lyriclab4.png";
+// import kidzoo from "../../assets/kidzoo.png";
+// import kidzoo2 from "../../assets/kidzoo2.png";
+// import kidzoo3 from "../../assets/kidzoo3.png";
+// import kidzoo4 from "../../assets/kidzoo4.png";
+// import chef from "../../assets/chef.png";
+// import chef2 from "../../assets/chef2.png";
+// import chef3 from "../../assets/chef3.png";
+// import chef4 from "../../assets/chef4.png";
 import LazyLoad from "react-lazy-load";
 
 const Projects = () => {
@@ -25,7 +25,8 @@ const Projects = () => {
         <>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              <img src={lyric} alt="lyric website image" />
+              {/* <img src={lyric} alt="lyric website image" /> */}
+              <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
             </LazyLoad>
 
             <div className="card-body">
@@ -46,7 +47,8 @@ const Projects = () => {
               <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={lyric} className="w-full" />
+                    {/* <img src={lyric} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" className="btn btn-circle">
@@ -59,7 +61,8 @@ const Projects = () => {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={lyric2} className="w-full" />
+                    {/* <img src={lyric2} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" className="btn btn-circle">
@@ -72,7 +75,8 @@ const Projects = () => {
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={lyric3} className="w-full" />
+                    {/* <img src={lyric3} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" className="btn btn-circle">
@@ -85,7 +89,8 @@ const Projects = () => {
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={lyric4} className="w-full" />
+                    {/* <img src={lyric4} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" className="btn btn-circle">
@@ -147,7 +152,8 @@ const Projects = () => {
         <div>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              <img src={kidzoo} alt="Kidzoo" />
+              {/* <img src={kidzoo} alt="Kidzoo" /> */}
+              <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
             </LazyLoad>
             <div className="card-body">
               <h2 className="card-title">Kidzoo || E-commerce website</h2>
@@ -167,7 +173,8 @@ const Projects = () => {
               <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={kidzoo} className="w-full" />
+                    {/* <img src={kidzoo} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" className="btn btn-circle">
@@ -180,7 +187,8 @@ const Projects = () => {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={kidzoo2} className="w-full" />
+                    {/* <img src={kidzoo2} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" className="btn btn-circle">
@@ -193,7 +201,8 @@ const Projects = () => {
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={kidzoo3} className="w-full" />
+                    {/* <img src={kidzoo3} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" className="btn btn-circle">
@@ -206,7 +215,8 @@ const Projects = () => {
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
                   <LazyLoad>
-                    <img src={kidzoo4} className="w-full" />
+                    {/* <img src={kidzoo4} className="w-full" /> */}
+                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" className="btn btn-circle">
@@ -265,7 +275,8 @@ const Projects = () => {
         <div>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              <img src={chef} alt="chef" />
+              {/* <img src={chef} alt="chef" /> */}
+              <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
             </LazyLoad>
             <div className="card-body">
               <h2 className="card-title">Bite my Kitchen || Restaurant</h2>
@@ -287,7 +298,8 @@ const Projects = () => {
           <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
               <LazyLoad>
-                <img src={chef} alt="chef" className="w-full" />
+                {/* <img src={chef} alt="chef" className="w-full" /> */}
+                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" className="btn btn-circle">
@@ -300,7 +312,8 @@ const Projects = () => {
             </div>
             <div id="slide2" className="carousel-item relative w-full">
               <LazyLoad>
-                <img src={chef2} alt="chef" className="w-full" />
+                {/* <img src={chef2} alt="chef" className="w-full" /> */}
+                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="btn btn-circle">
@@ -313,7 +326,8 @@ const Projects = () => {
             </div>
             <div id="slide3" className="carousel-item relative w-full">
               <LazyLoad>
-                <img src={chef3} alt="chef" className="w-full" />
+                {/* <img src={chef3} alt="chef" className="w-full" /> */}
+                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="btn btn-circle">
@@ -326,7 +340,8 @@ const Projects = () => {
             </div>
             <div id="slide4" className="carousel-item relative w-full">
               <LazyLoad>
-                <img src={chef4} alt="chef" className="w-full" />
+                {/* <img src={chef4} alt="chef" className="w-full" /> */}
+                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="btn btn-circle">

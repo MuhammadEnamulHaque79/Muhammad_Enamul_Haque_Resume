@@ -2,6 +2,8 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import About from '../About/About';
+import Services from '../Services/Services';
+import Projects from '../Projects/Projects';
 // import Banner from "../Banner/Banner";
 // import About from "../About/About";
 // import Services from "../Services/Services";
@@ -16,7 +18,9 @@ const Home = () => {
         {/* <About></About> */}
         <About></About>
         {/* <Services></Services> */}
+        <Services></Services>
         {/* <Projects></Projects> */}
+        <Projects></Projects>
         {/* <Contact></Contact> */}
         <Contact></Contact>
       </div>
