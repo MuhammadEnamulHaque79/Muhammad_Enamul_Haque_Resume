@@ -26,7 +26,7 @@ const Contact = () => {
     <div className="my-20" id="contacts">
       <h2 className="text-center text-3xl font-semibold">Contact Me</h2>
       <div className="lg:flex mt-10 gap-10">
-        <div className="flex flex-col">
+        <div className="flex flex-col m-5">
 
           <Zoom>
             <div>
@@ -58,7 +58,7 @@ const Contact = () => {
                   </span>
                 </div>
                 <div>
-                  <p>muhammad.enamul.haque79@gmail.com</p>
+                  <p>enahaque79@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                   </span>
                 </div>
                 <div>
-                  <p className="pe-10">+8801716491164</p>
+                  <p>+8801716491164</p>
                 </div>
               </div>
             </Zoom>
@@ -95,7 +95,7 @@ const Contact = () => {
 
           <div>
             <Zoom>
-              <h3>Location</h3>
+              <h3 className="me-5">Location</h3>
               <div className="flex gap-4 items-center shadow-2xl justify-center content-center">
                 <div>
                   <span>
@@ -121,7 +121,7 @@ const Contact = () => {
                   </span>
                 </div>
                 <div>
-                  <p>Kishoreganj, Bangladesh 2300</p>
+                  <p>Kishoreganj, Bangladesh</p>
                 </div>
               </div>
             </Zoom>
@@ -191,7 +191,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="FirstName"
-                  placeholder="Type Your First Name"
+                  placeholder="Write Your First Name"
                   className="input input-bordered input-secondary w-full"
                   required
                 />
@@ -203,7 +203,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="LastName"
-                  placeholder="Type Your LastName"
+                  placeholder="Write Your LastName"
                   className="input input-bordered input-secondary w-full"
                   required
                 />
@@ -216,7 +216,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="Email"
-                placeholder="Email Address"
+                placeholder="Enter Your Email"
                 className="input input-bordered input-secondary w-full"
                 required
               />
@@ -227,7 +227,7 @@ const Contact = () => {
               </label>
               <textarea
                 className="textarea textarea-secondary"
-                placeholder="Message"
+                placeholder="Write Message"
                 name="Message"
                 required
               ></textarea>
@@ -236,7 +236,7 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Send"
-                className="input input-bordered btn mt-8 btn-error w-full"
+                className="input input-bordered btn mt-8 btn-secondary w-full"
               />
             </div>
           </form>

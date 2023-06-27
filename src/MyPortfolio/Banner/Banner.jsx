@@ -12,7 +12,7 @@ const Banner = () => {
     return (
         <div className="lg:flex mt-20 justify-center mx-auto items-center gap-16">
             <div className="lg:w-2/3 mx-auto lg:mx-0 text-white">
-                <h2 className="lg:text-3xl">Hi, I'm Abu Bokor!</h2>
+                <h2 className="lg:text-3xl">HI,MUHAMMAD ENAMUL HAQUE</h2>
                 <div className="lg:text-3xl lg:my-5">
                     {/* <Type></Type> */}
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
+import About from '../About/About';
 // import Banner from "../Banner/Banner";
 // import About from "../About/About";
 // import Services from "../Services/Services";
@@ -13,6 +14,7 @@ const Home = () => {
         {/* <Banner></Banner> */}
         <Banner></Banner>
         {/* <About></About> */}
+        <About></About>
         {/* <Services></Services> */}
         {/* <Projects></Projects> */}
         {/* <Contact></Contact> */}
