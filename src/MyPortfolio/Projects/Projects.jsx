@@ -11,6 +11,7 @@ import React from "react";
 // import chef2 from "../../assets/chef2.png";
 // import chef3 from "../../assets/chef3.png";
 // import chef4 from "../../assets/chef4.png";
+
 import LazyLoad from "react-lazy-load";
 
 const Projects = () => {
@@ -25,14 +26,15 @@ const Projects = () => {
         <>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              {/* <img src={lyric} alt="lyric website image" /> */}
-              <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+              {/* <img src={lyric} alt="photo" /> */}
+              <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
             </LazyLoad>
 
             <div className="card-body">
-              <h2 className="card-title">LyricLAB || Educational Website</h2>
+              <h2 className="card-title">Yoga School || Educational Website</h2>
               <div className="card-actions justify-between">
-                <button className="btn btn-primary">Buy Now</button>
+                {/* <button className="btn btn-primary">Buy Now</button> */}
+                <button className="btn btn-primary">Enroll Now</button>
                 <button
                   className="btn btn-primary"
                   onClick={() => window.my_modal_4.showModal()}
@@ -48,7 +50,7 @@ const Projects = () => {
                 <div id="slide1" className="carousel-item relative w-full">
                   <LazyLoad>
                     {/* <img src={lyric} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" className="btn btn-circle">
@@ -62,7 +64,7 @@ const Projects = () => {
                 <div id="slide2" className="carousel-item relative w-full">
                   <LazyLoad>
                     {/* <img src={lyric2} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" className="btn btn-circle">
@@ -76,7 +78,7 @@ const Projects = () => {
                 <div id="slide3" className="carousel-item relative w-full">
                   <LazyLoad>
                     {/* <img src={lyric3} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" className="btn btn-circle">
@@ -90,7 +92,7 @@ const Projects = () => {
                 <div id="slide4" className="carousel-item relative w-full">
                   <LazyLoad>
                     {/* <img src={lyric4} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/NYvwjbj/ins8.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" className="btn btn-circle">
@@ -103,7 +105,7 @@ const Projects = () => {
                 </div>
               </div>
               <h3 className="font-bold text-lg">
-                LyricLAB ||
+                Yoga School ||
                 <span className=""> Educational Website</span>
               </h3>
               <p>
@@ -115,29 +117,26 @@ const Projects = () => {
               <h4 className="font-semibold">Featured:</h4>
               <ul className="list-disc">
                 <li>
-                  Create a dedicated section to showcase the best educational
-                  products based on their quality and design.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui asperiores aut, hic animi molestias inventore maiores quibusdam nisi esse dolorum nesciunt! Cum assumenda est recusandae animi, quos non corrupti aspernatur, a quaerat voluptatem perspiciatis adipisci ut voluptatum, dignissimos sunt!
                 </li>
                 <li>
-                  Ensure each product page displays comprehensive details about
-                  the product.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsam laboriosam omnis? Assumenda dolorum unde cupiditate id consectetur aut quas praesentium quisquam? Sed ducimus earum at vitae libero magni cumque.
                 </li>
                 <li>
-                  Design the dashboard interface to have a clear sidebar that
-                  displays different sections based on the user's role.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus distinctio quod in ab saepe eveniet cumque eum, ipsum non incidunt ut ex quidem earum sequi est, dolorum fugit iure dolor obcaecati? Delectus expedita doloremque ducimus, aperiam asperiores tenetur exercitationem amet.
                 </li>
               </ul>
               <div className="lg:flex mt-5 gap-5">
                 <button className="btn btn-error btn-outline">
-                  <a href="https://lyriclab-17c8b.web.app/">Preview</a>
+                  <a href="https://yoga-school-854f5.firebaseapp.com/">Preview</a>
                 </button>
                 <button className="btn btn-error btn-outline">
-                  <a href="https://github.com/AbuBokorprog/lyriclab-project-client-side">
+                  <a href="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-MuhammadEnamulHaque79">
                     Client side
                   </a>
                 </button>
                 <button className="btn btn-error btn-outline">
-                  <a href="https://github.com/AbuBokorprog/lyriclab-project-server-side">
+                  <a href="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-MuhammadEnamulHaque79">
                     Server side
                   </a>
                 </button>
@@ -153,10 +152,10 @@ const Projects = () => {
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
               {/* <img src={kidzoo} alt="Kidzoo" /> */}
-              <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+              <img src="https://i.ibb.co/6mbPzRD/class3.png" alt="photo" />
             </LazyLoad>
             <div className="card-body">
-              <h2 className="card-title">Kidzoo || E-commerce website</h2>
+              <h2 className="card-title">Disney Doll World || E-commerce website</h2>
               <div className="card-actions justify-between">
                 <button className="btn btn-primary">Buy Now</button>
                 <button
@@ -173,8 +172,7 @@ const Projects = () => {
               <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={kidzoo} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/k4Wq8gF/learning3.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" className="btn btn-circle">
@@ -187,8 +185,7 @@ const Projects = () => {
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={kidzoo2} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/k4Wq8gF/learning3.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" className="btn btn-circle">
@@ -201,8 +198,8 @@ const Projects = () => {
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={kidzoo3} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    
+                    <img src="https://i.ibb.co/k4Wq8gF/learning3.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" className="btn btn-circle">
@@ -215,8 +212,7 @@ const Projects = () => {
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
                   <LazyLoad>
-                    {/* <img src={kidzoo4} className="w-full" /> */}
-                    <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                    <img src="https://i.ibb.co/k4Wq8gF/learning3.png" alt="photo" />
                   </LazyLoad>
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" className="btn btn-circle">
@@ -229,7 +225,7 @@ const Projects = () => {
                 </div>
               </div>
               <h3 className="font-bold text-lg">
-                KidZoo ||
+                Disney Doll World ||
                 <span className=""> E-commerce Website</span>
               </h3>
               <p>
@@ -252,21 +248,20 @@ const Projects = () => {
               </ul>
               <div className="lg:flex mt-5 gap-5">
                 <button className="btn btn-error btn-outline">
-                  <a href="https://kidzoo-cb3d2.web.app/">Preview</a>
+                  <a href="https://project-11-client-side.firebaseapp.com/">Preview</a>
                 </button>
                 <button className="btn btn-error btn-outline">
-                  <a href="https://github.com/AbuBokorprog/kidzoo-project-client-side">
+                  <a href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-MuhammadEnamulHaque79">
                     Client side
                   </a>
                 </button>
                 <button className="btn btn-error btn-outline">
-                  <a href="https://github.com/AbuBokorprog/kidzoo-project-server-side">
+                  <a href="https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-MuhammadEnamulHaque79">
                     Server side
                   </a>
                 </button>
               </div>
               <div className="modal-action">
-                {/* if there is a button, it will close the modal */}
                 <button className="btn">Close</button>
               </div>
             </form>
@@ -275,11 +270,10 @@ const Projects = () => {
         <div>
           <div className="card card-compact lg:w-96 bg-base-100 shadow-xl">
             <LazyLoad>
-              {/* <img src={chef} alt="chef" /> */}
-              <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+              <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
             </LazyLoad>
             <div className="card-body">
-              <h2 className="card-title">Bite my Kitchen || Restaurant</h2>
+              <h2 className="card-title">Thai Recipe Food || Restaurant</h2>
               <div className="card-actions justify-between">
                 <button className="btn btn-primary">Buy Now</button>
                 <button
@@ -298,8 +292,7 @@ const Projects = () => {
           <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full">
               <LazyLoad>
-                {/* <img src={chef} alt="chef" className="w-full" /> */}
-                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" className="btn btn-circle">
@@ -312,8 +305,7 @@ const Projects = () => {
             </div>
             <div id="slide2" className="carousel-item relative w-full">
               <LazyLoad>
-                {/* <img src={chef2} alt="chef" className="w-full" /> */}
-                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="btn btn-circle">
@@ -326,8 +318,7 @@ const Projects = () => {
             </div>
             <div id="slide3" className="carousel-item relative w-full">
               <LazyLoad>
-                {/* <img src={chef3} alt="chef" className="w-full" /> */}
-                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="btn btn-circle">
@@ -340,8 +331,7 @@ const Projects = () => {
             </div>
             <div id="slide4" className="carousel-item relative w-full">
               <LazyLoad>
-                {/* <img src={chef4} alt="chef" className="w-full" /> */}
-                <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="lyric website image" />
+                <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
               </LazyLoad>
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="btn btn-circle">
@@ -354,7 +344,7 @@ const Projects = () => {
             </div>
           </div>
           <h3 className="font-bold text-lg">
-            Bite my kitchen ||
+            Thai Recipe Food ||
             <span className=""> Restaurant Website</span>
           </h3>
           <p>
@@ -366,7 +356,7 @@ const Projects = () => {
           <h4 className="font-semibold">Featured:</h4>
           <ul className="list-disc">
             <li>
-              Create a dedicated section to showcase the best educational
+              Create a dedicated section to showcase the best restaurant
               products based on their quality and design.
             </li>
             <li>
@@ -374,27 +364,25 @@ const Projects = () => {
               product.
             </li>
             <li>
-              Design the dashboard interface to have a clear sidebar that
-              displays different sections based on the user's role.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque commodi odit perspiciatis similique officiis nemo veniam autem quibusdam cum perferendis, fugit ipsum repellat numquam sunt cupiditate ut aperiam, aut dolore.
             </li>
           </ul>
           <div className="lg:flex mt-5 gap-10">
             <button className="btn btn-error mx-2 btn-outline">
-              <a href="https://chef-savvy-project.web.app/">Preview</a>
+              <a href="https://thai-food-recipe-hub.firebaseapp.com/">Preview</a>
             </button>
             <button className="btn btn-error btn-outline">
-              <a href="https://github.com/AbuBokorprog/chef-savvy-project-client-side">
+              <a href=" https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-MuhammadEnamulHaque79">
                 Client side
               </a>
             </button>
             <button className="btn btn-error btn-outline">
-              <a href="https://github.com/AbuBokorprog/chef-savvy-project-server-side">
+              <a href="https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-MuhammadEnamulHaque79">
                 Server side
               </a>
             </button>
           </div>
           <div className="modal-action">
-            {/* if there is a button, it will close the modal */}
             <button className="btn">Close</button>
           </div>
         </form>
