@@ -3,6 +3,10 @@ import { Fade } from "react-awesome-reveal";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
+  const handleDownload=()=>{
+    window.open('https://drive.google.com/u/1/uc?id=1qW0R1IgmpPXcYUOQftRfKS0WItdxAENH&export=download')
+  }
+   
 
 
   const nav = (
@@ -61,12 +65,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal">{nav}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-outline btn-info">
-            <a href="https://drive.google.com/file/d/1qW0R1IgmpPXcYUOQftRfKS0WItdxAENH/view?usp=sharing" download>
-              Get Resume
-            </a>
-          </button>
-            
+          <button onClick={handleDownload} className="btn btn-outline btn-info">Get Resume</button>
         </div>
             
       </div>
@@ -75,5 +74,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+        
+            
 
 //https://github.com/AbuBokorprog/abubokor-portfolio/blob/main/src/Layout/Main.jsx

@@ -15,15 +15,19 @@ import { Fade } from "react-awesome-reveal";
 // import { BrowserRouter } from "react-router-dom";
 import LazyLoad from "react-lazy-load";
 
+
 const About = () => {
     return (
         <div className="mx-5 my-20" id="about">
-            <h2 className="text-center text-3xl font-semibold">About Me</h2>
+            <h2 className="text-center text-3xl font-semibold">
+                About Me
+            </h2>
+            
             <div className="lg:flex gap-16 items-center my-5">
                 <div className="lg:w-1/2">
                     <Fade direction="right" duration={2000} delay={1000}>
                         <LazyLoad>
-                            {/* <img src={picture} alt="" className="rounded-2xl lg:w-full" /> */}
+                            
                             <img src="https://i.ibb.co/PYPj1G5/portfolio.png" alt="" className="rounded-2xl lg:w-full" />
                         </LazyLoad>
                     </Fade>

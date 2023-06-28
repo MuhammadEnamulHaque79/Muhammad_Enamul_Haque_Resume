@@ -67,7 +67,7 @@ const Banner = () => {
                 </div>
 
                 <div className="text-center mx-auto">
-                    <button className="btn text-white mt-5 bg-gradient-to-r from-red-400 to-blue-500 hover:from-pink-500 hover:to-yellow-400">
+                    <button className="btn text-white mt-5 bg-gradient-to-r from-gray-400 to-blue-500 hover:from-pink-500 hover:to-yellow-400">
                         <Link to="#contacts">Hire Me</Link>
                     </button>
                 </div>

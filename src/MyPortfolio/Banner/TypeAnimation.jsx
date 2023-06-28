@@ -22,6 +22,7 @@ const Type = () => {
         style={{ fontSize: "2em", display: "inline-block" }}
         repeat={Infinity}
       />
+        
     </div>
   );
 };
