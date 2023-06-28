@@ -1,13 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-// import { Fade, Zoom } from "react-awesome-reveal";
-// import github from "../../assets/github.png";
-// import linkedin from "../../assets/linkedin.png";
-// import showwcase from "../../assets/152037815-1ba1ba6e-7f3a-455e-a51e-7fb2619ea519.png";
-// import LinearProgress from "@mui/material/LinearProgress";
-// import Box from "@mui/material/Box";
-// import ScrollToTop from "react-scroll-up";
-// import up from "../../assets/up-arrow.gif";
+import linkedIn from "../../assets/icons/linkedin.png";
+import github from "../../assets/icons/github.png";
 import ScrollToTop from "react-scroll-up";
 import { Zoom } from "react-awesome-reveal";
 
@@ -23,8 +17,8 @@ const Contact = () => {
     },
   };
   return (
-    <div className="mx-5 my-20" id="contacts">
-      <h2 className="text-center text-3xl font-semibold">Contact Me</h2>
+    <div className="mx-5 my-5" id="contacts">
+      <h2 className="text-center text-2xl font-thin font-mono">Contact Me</h2>
       <div className="lg:flex mt-10 gap-10">
         <div className="flex flex-col m-5">
 
@@ -129,54 +123,28 @@ const Contact = () => {
 
           <Zoom>
             <div className="flex mb-10 gap-10 justify-center items-center mt-5">
-              {/* <a href="https://github.com/MuhammadEnamulHaque79">
+              <a href="https://github.com/MuhammadEnamulHaque79">
                 <img
                   src={github}
-                  alt=""
-                  className=" w-10  rounded-full hover:ring-teal-400 hover:ring-2 bg-white"
-                />
-              </a> */}
-              <a href="https://github.com/MuhammadEnamulHaque79">
-                <img
-                  // src={github}
-                  src="https://i.ibb.co/1mkMvDb/SC8.png"
-                  alt=""
-                  className=" w-10  rounded-full hover:ring-teal-400 hover:ring-2 bg-white"
-                />
-              </a>
-
-              {/* <a href="https://www.showwcase.com/abubokorprog">
-                <img
-                  src={showwcase}
-                  alt=""
-                  className=" w-10  rounded-full bg-white hover:ring-teal-400 hover:ring-2"
-                />
-              </a> */}
-              <a href="https://github.com/MuhammadEnamulHaque79">
-                <img
-                  src="https://i.ibb.co/1mkMvDb/SC8.png"
-                  alt=""
+                  alt="photo"
                   className=" w-10  rounded-full bg-white hover:ring-teal-400 hover:ring-2"
                 />
               </a>
 
               <a href="https://www.linkedin.com/in/enahaque79/">
                 <img
-                  // src={linkedin}
-                  src="https://i.ibb.co/1mkMvDb/SC8.png"
-                  alt=""
+                  src={linkedIn}
+                  
+                  alt="photo"
                   className=" w-10 rounded-full bg-white hover:ring-teal-400 hover:ring-2"
                 />
               </a>
-
             </div>
-
           </Zoom>
         </div>
 
-
-        <div className="lg:w-2/3">
-          <h3 className="text-2xl text-center">Get In touch</h3>
+    <div className="lg:w-2/3">
+          <h3 className="text-2xl text-center font-thin font-mono">Get In Touch</h3>
           <form
             action="https://formsubmit.co/c4302b3b04335619f01986d9b3ddc6af"
 
@@ -236,20 +204,16 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Send"
-                className="input input-bordered btn mt-8 btn-secondary w-full"
+                className="input input-bordered input-secondary btn mt-8 w-full"
               />
             </div>
           </form>
         </div>
       </div>
-      <ScrollToTop showUnder={160}>
-        <span className="text-xl">
-          {/* <img src={up} alt="" className="lg:w-16 w-10 rounded-full" /> */}
-          <img src="https://i.ibb.co/1mkMvDb/SC8.png" alt="" className="lg:w-16 w-10 rounded-full" />
-        </span>
-      </ScrollToTop>
+
     </div>
   );
 };
 
 export default Contact;
+          

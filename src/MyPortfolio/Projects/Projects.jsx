@@ -18,7 +18,7 @@ const Projects = () => {
   return (
     <div className="mx-5 my-20" id="projects">
       <>
-        <h2 className="text-2xl mb-5 text-center font-semibold text-red-400">
+        <h2 className="mb-5 text-center text-2xl font-thin font-mono">
           My Projects
         </h2>
       </>
@@ -31,7 +31,7 @@ const Projects = () => {
             </LazyLoad>
 
             <div className="card-body">
-              <h2 className="card-title">Yoga School || Educational Website</h2>
+              <h2 className="card-title font-thin font-mono">Yoga School|Educational Website</h2>
               <div className="card-actions justify-between">
                 
                 <button className="btn btn-primary">Enroll Now</button>
@@ -105,7 +105,7 @@ const Projects = () => {
               </div>
               <h3 className="font-bold text-lg">
                 Yoga School ||
-                <span className=""> Educational Website</span>
+                <span className="font-thin font-mono"> Educational Website</span>
               </h3>
               <p>
                 Technology:
@@ -155,7 +155,7 @@ const Projects = () => {
               <img src="https://i.ibb.co/qr1b1Cs/papet-1.png" alt="photo" />
             </LazyLoad>
             <div className="card-body">
-              <h2 className="card-title">Doll World || E-commerce Website</h2>
+              <h2 className="card-title font-thin font-mono">Doll World|E-commerce Website</h2>
               <div className="card-actions justify-between">
                 <button className="btn btn-primary">Buy Now</button>
                 <button
@@ -273,7 +273,7 @@ const Projects = () => {
               <img src="https://i.ibb.co/f9fLZc9/food4.png" alt="photo" />
             </LazyLoad>
             <div className="card-body">
-              <h2 className="card-title">Thai Recipe Cortege || Restaurant</h2>
+              <h2 className="card-title font-thin font-mono">Thai Recipe Cortege|Restaurant</h2>
               <div className="card-actions justify-between">
                 <button className="btn btn-primary">Buy Now</button>
                 <button

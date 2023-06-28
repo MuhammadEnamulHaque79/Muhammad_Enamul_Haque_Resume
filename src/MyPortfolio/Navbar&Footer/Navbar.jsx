@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <Fade direction="up" duration={2000}>
-      <div className="navbar z-0 font-bold top-0 text-xl">
+      <div className="navbar fixed z-0 font-mono font-semibold uppercase top-0 text-2xl">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,7 +59,7 @@ const Navbar = () => {
               {nav}
             </ul>
           </div>
-          <a className=" text-blue-600 normal-case text-xl">Enahaque79</a>
+          <a className=" text-blue-600 normal-case text-xl font-mono font-semibold">Enahaque79</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal">{nav}</ul>
