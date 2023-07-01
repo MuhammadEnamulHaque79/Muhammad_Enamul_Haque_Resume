@@ -14,7 +14,7 @@ const Banner = () => {
                 <Type></Type>
                     
                 </div>
-                <p className="lg:text-xl my-10">
+                <p className="lg:text-xl my-10 font-thin font-mono">
                 Proficient in multiple aspects of web development, encompassing both front-end technologies. With expertise in MERN stack, JavaScript, HTML, CSS, Tailwinds Css and React to create dynamic, interactive, user friendly, robust and scalable web applications that ensure visually appealing and responsive and that attract the attention of my clients.
                 </p>
 

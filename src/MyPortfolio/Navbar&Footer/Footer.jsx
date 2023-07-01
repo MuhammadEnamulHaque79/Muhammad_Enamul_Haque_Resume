@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="text-center mb-5 font-mono">
+    <div className="text-center mb-5 font-thin font-mono">
       <p>@Copyright 2023 by enahaque79</p>
     </div>
   );

@@ -16,8 +16,8 @@ const Services = () => {
           
 
           <div className="card-body">
-            <h1 className="card-title">Responsive Design</h1>
-            <p>
+            <h1 className="card-title font-thin font-mono">Responsive Design</h1>
+            <p className="font-thin font-mono">
               Responsive web design creates adaptable websites that seamlessly
               adjust their layout and content to fit different devices, ensuring
               an optimal user experience across screens of all sizes.
@@ -29,8 +29,8 @@ const Services = () => {
           
 
           <div className="card-body">
-            <h1 className="card-title">HTML/CSS development</h1>
-            <p>
+            <h1 className="card-title font-thin font-mono">HTML/CSS development</h1>
+            <p className="font-thin font-mono">
               Web development involves creating and maintaining websites using
               various programming languages, frameworks, and tools. It
               encompasses front-end development, back-end development, and
@@ -44,8 +44,8 @@ const Services = () => {
           
 
           <div className="card-body">
-            <h1 className="card-title">Front End Development</h1>
-            <p>
+            <h1 className="card-title font-thin font-mono">Front End Development</h1>
+            <p className="font-thin font-mono">
               Front-end development focuses on creating the user-facing portion
               of a website or application. It involves coding HTML, CSS, and
               JavaScript to design and implement visually appealing and
@@ -59,7 +59,7 @@ const Services = () => {
 
           <div className="card-body">
             <h1 className="card-title">Website accessibility</h1>
-            <p>
+            <p className="font-thin font-mono">
               Responsive web design creates adaptable websites that seamlessly
               adjust their layout and content to fit different devices, ensuring
               an optimal user experience across screens of all sizes.

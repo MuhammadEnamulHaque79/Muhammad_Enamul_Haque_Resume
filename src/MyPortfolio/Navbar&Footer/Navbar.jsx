@@ -1,6 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { HashLink as Link } from "react-router-hash-link";
+import web from "../../assets/icons/web.png";
 
 const Navbar = () => {
   const handleDownload=()=>{
@@ -59,8 +60,10 @@ const Navbar = () => {
               {nav}
             </ul>
           </div>
-          <a className="text-xl font-mono font-thin uppercase btn btn-outline btn-warning">Portfolio</a>
+          <Link to="https://drive.google.com/u/1/uc?id=1qW0R1IgmpPXcYUOQftRfKS0WItdxAENH"><img src={web} alt="web" className="w-10 h-10" /></Link>
         </div>
+          
+          
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal">{nav}</ul>
         </div>

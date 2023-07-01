@@ -200,7 +200,7 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <div className="form-control w-full">
+            <div className="form-control w-full font-thin font-mono">
               <input
                 type="submit"
                 value="Send"

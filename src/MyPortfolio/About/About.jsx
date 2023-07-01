@@ -35,15 +35,15 @@ const About = () => {
                 </div>
                 <div className="lg:w-1/2 mt-4">
                     <Fade direction="right" duration={3000}>
-                        <p className="lg:text-xl">
+                        <p className="lg:text-xl font-thin font-mono">
                         As a Full Stack Developer, proficient in multiple aspects of web development, encompassing both front-end technologies. With expertise in MERN stack, JavaScript, HTML, CSS, Tailwinds Css and React to create dynamic, interactive, user friendly, robust and scalable web applications that ensure visually appealing and responsive and that attract the attention of my clients.
                         </p>
                     </Fade>
                 </div>
             </div>
             <div className="mt-10">
-                <h2 className="text-2xl">Tech Fields:</h2> <br />
-                <p className="text-xl">
+                <h2 className="text-2xl font-thin font-mono font-semibold">Tech Fields:</h2> <br />
+                <p className="text-xl font-thin font-mono">
                     Using a combination of cutting-edge technologies and reliable
                     open-source software I build user-focused, performant apps and
                     websites for smartphones, tablets, and desktops.
