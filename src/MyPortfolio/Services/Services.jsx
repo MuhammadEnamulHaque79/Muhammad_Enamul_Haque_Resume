@@ -11,7 +11,7 @@ const Services = () => {
         Services
       </h2>
       <div className="lg:grid w-full lg:grid-cols-3 gap-8 mt-10">
-        <div className="card hover:border-b-2 border-red-600 lg:w-96 bg-base-100 shadow-2xl">
+        <div className="card hover:border-b-2 border-blue-600 lg:w-96 bg-base-100 shadow-2xl">
           <img src={img3} alt="image1" className="lg:w-80  rounded-xl" />
           
 
@@ -24,8 +24,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card hover:border-b-2 border-red-600  lg:w-96 bg-base-100 shadow-2xl">
-          <img src={img1} alt="Shoes" className="lg:w-80 rounded-xl" />
+        <div className="card hover:border-b-2 border-blue-600  lg:w-96 bg-base-100 shadow-2xl">
+          <img src={img1} alt="photo" className="lg:w-80 rounded-xl" />
           
 
           <div className="card-body">
@@ -39,8 +39,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card hover:border-b-2 border-red-600 lg:w-96 bg-base-100 shadow-2xl">
-          <img src={img2} alt="Shoes" className="lg:w-80 rounded-xl" />
+        <div className="card hover:border-b-2 border-blue-600 lg:w-96 bg-base-100 shadow-2xl">
+          <img src={img2} alt="photo" className="lg:w-80 rounded-xl" />
           
 
           <div className="card-body">
@@ -53,8 +53,8 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card hover:border-b-2 border-red-600 lg:w-96 bg-base-100 shadow-2xl">
-          <img src={img4} alt="Shoes" className="lg:w-80 rounded-xl" />
+        <div className="card hover:border-b-2 border-blue-600 lg:w-96 bg-base-100 shadow-2xl">
+          <img src={img4} alt="photo" className="lg:w-80 rounded-xl" />
     
 
           <div className="card-body">
