@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Type = () => {
   return (
-    <div className="">
+    <div>
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
@@ -19,7 +19,7 @@ const Type = () => {
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: "2em", display: "inline-block" }}
+        style={{ fontSize: "1em", display: "inline-block",font:"thin"}}
         repeat={Infinity}
       />
         

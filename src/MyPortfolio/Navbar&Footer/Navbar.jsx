@@ -77,6 +77,5 @@ const Navbar = () => {
 export default Navbar;
         
             
-//https://app.netlify.com/sites/unrivaled-youtiao-c03255/deploys
+
 //48-10 (bonus) Deploy rest countries to surge
-//
