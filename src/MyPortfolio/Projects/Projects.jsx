@@ -1,22 +1,9 @@
 import React from "react";
-// import lyric from "../../assets/lyriclab.png";
-// import lyric2 from "../../assets/lyriclab2.png";
-// import lyric3 from "../../assets/lyriclab3.png";
-// import lyric4 from "../../assets/lyriclab4.png";
-// import kidzoo from "../../assets/kidzoo.png";
-// import kidzoo2 from "../../assets/kidzoo2.png";
-// import kidzoo3 from "../../assets/kidzoo3.png";
-// import kidzoo4 from "../../assets/kidzoo4.png";
-// import chef from "../../assets/chef.png";
-// import chef2 from "../../assets/chef2.png";
-// import chef3 from "../../assets/chef3.png";
-// import chef4 from "../../assets/chef4.png";
-
 import LazyLoad from "react-lazy-load";
 
 const Projects = () => {
   return (
-    <div className="mx-5 my-20" id="projects">
+    <div className="mx-5" id="projects">
       <>
         <h2 className="mb-5 text-center text-2xl font-thin font-mono">
           My Projects

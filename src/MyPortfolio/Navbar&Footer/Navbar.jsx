@@ -16,18 +16,16 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link className="active:bg-red-400" to="#about">
-          About
-        </Link>
+        <Link target="_blank" to="/about"> About</Link>
       </li>
       <li>
-        <Link to="#services">Services</Link>
+        <Link target="_blank" to="/services">Services</Link>
       </li>
       <li>
-        <Link to="#projects">Projects</Link>
+        <Link target="_blank" to="/projects">Projects</Link>
       </li>
       <li>
-        <Link to="#contacts">Contacts</Link>
+        <Link target="_blank" to="/contacts">Contacts</Link>
       </li>
     </>
   );
@@ -79,4 +77,6 @@ const Navbar = () => {
 export default Navbar;
         
             
-
+//https://app.netlify.com/sites/unrivaled-youtiao-c03255/deploys
+//48-10 (bonus) Deploy rest countries to surge
+//

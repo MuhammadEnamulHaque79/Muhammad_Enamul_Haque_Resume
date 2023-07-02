@@ -6,7 +6,7 @@ import img4 from "../../assets/icons/img4.png";
 
 const Services = () => {
   return (
-    <div className="mx-5 my-20" id="services">
+    <div className="mx-5" id="services">
       <h2 className="mb-5 text-center text-2xl font-thin font-mono">
         Services
       </h2>
